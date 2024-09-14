@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+}
+  
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 20%;
+  margin: 2.5% 2.5% 2.5% 2.5%;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+}
+
+.score, .win{
+  max-width: fit-content;
+  margin: 2% auto 0 auto;
+  font-size: xx-large;
+}
